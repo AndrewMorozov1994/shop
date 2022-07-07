@@ -1,0 +1,35 @@
+.footer{
+    background-color: #212121;
+    margin:0 auto;
+    max-width: 1110px;
+    display:flex;
+    justify-content: space-between;
+    &-logo{
+        flex: 0 0 40%;
+    }
+    &-nav{
+        flex: 0 0 60%;
+        display:flex;
+        justify-content: space-between;
+        color:white;
+
+    }
+    &-list{
+        list-style-type: none;
+        padding-left:0;
+        &-title{
+            font-size:10px;
+            font-weight: 700;
+        }
+        
+        &-link{
+            color:$gray;
+            text-decoration: none;
+            &:hover{
+                color:orange;
+            }
+        
+    }
+
+    }
+}
